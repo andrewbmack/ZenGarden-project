@@ -1,0 +1,82 @@
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+
+body{
+  background-color: black;
+}
+
+/* page-wrapper */
+.page-wrapper {
+  padding: 15px;
+}
+.page-wrapper > *{
+  padding: 10px;
+  margin: 10px;
+}
+
+/* intro - Banner, Summary, Preamble*/
+.intro {
+  font-family: Helivetica, sans-serif;
+  background-color: white;
+  border: 2px solid black;
+  
+}
+header {
+  background-image: url(https://image.shutterstock.com/image-photo/wide-angle-view-mountain-biker-600w-1009664737.jpg);
+  display: flex;
+  align-items: center;
+  flex-flow: column;
+}
+.header:first-child{
+  display: flex;
+  
+}
+h1 {
+  font-weight: bold;
+  font-size: 80px;
+  
+} 
+h1::before{ 
+  content:"cycling";
+  transform: rotate(347.75deg);
+  color: white;
+  position: absolute;
+  font-size: 30px;
+  
+}
+h2 {
+}
+
+/* main supporting - Explanation, Participation, Benefits, Requirements, Footer */
+.main {
+  background-color: white;
+  border: 2px solid green;
+  display: flex;
+  
+}
+.main > *{
+  background-color: white;
+  border: 2px solid green;
+
+}
+
+/* sidebar - designselection, designarchives, resources */
+.sidebar {
+  background-color: white;
+  border: 2px solid yellow;
+  
+}
